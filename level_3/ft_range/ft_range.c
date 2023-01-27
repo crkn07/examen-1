@@ -6,7 +6,7 @@
 /*   By: crtorres <crtorres@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/30 13:59:46 by crtorres          #+#    #+#             */
-/*   Updated: 2022/12/12 18:36:38 by crtorres         ###   ########.fr       */
+/*   Updated: 2023/01/25 17:59:00 by crtorres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,13 @@
 #include <stdio.h>
 
 
+/**
+ * Ft_absolute_value returns the absolute value of the integer passed to it.
+ * 
+ * @param nbr the number to be converted to absolute value
+ * 
+ * @return The absolute value of the number.
+ */
 int	ft_absolute_value(int nbr)
 {
 	if (nbr < 0)
@@ -54,12 +61,12 @@ int	*ft_range(int start, int end)
 	return (tab);
 }
 
-int main()
+/* int main()
 {
     int *range1 = ft_range(1, 3); // returns [1, 2, 3]
     int *range2 = ft_range(-1, 2); // returns [-1, 0, 1, 2]
     int *range3 = ft_range(0, 0); // returns [0]
-    int *range4 = ft_range(1, -3); // returns [0, -1, -2, -3]
+    int *range4 = ft_range(1, -3); // returns [1, 0, -1, -2, -3]
     // Print the elements of the range arrays
     printf("range1: [");
     for (int i = 0; i < 3; i++)
@@ -86,4 +93,4 @@ int main()
     free(range3);
     free(range4);
     return 0;
-}
+} */

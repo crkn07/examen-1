@@ -6,7 +6,7 @@
 /*   By: crtorres <crtorres@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 19:03:00 by crtorres          #+#    #+#             */
-/*   Updated: 2022/12/09 17:00:47 by crtorres         ###   ########.fr       */
+/*   Updated: 2023/01/24 15:04:59 by crtorres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,14 @@ char	to_lower(char c)
 	return (c);
 }
 
+/**
+ * It returns the value of a digit in a given base, or -1 if the digit is invalid
+ * 
+ * @param c the character to convert
+ * @param digits_in_base The number of digits in the base you're converting to.
+ * 
+ * @return the value of the digit in the given base.
+ */
 int get_digit(char c, int digits_in_base)
 {
 	int max_digit;
