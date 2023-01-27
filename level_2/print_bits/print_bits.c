@@ -6,7 +6,7 @@
 /*   By: crtorres <crtorres@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/19 15:14:23 by crtorres          #+#    #+#             */
-/*   Updated: 2022/12/19 15:46:49 by crtorres         ###   ########.fr       */
+/*   Updated: 2023/01/25 17:51:27 by crtorres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,10 @@ void	print_bits(unsigned char octet)
 		write(1, &bit, 1);
 	}
 }
+
+/* int main(void)
+{
+	print_bits(5);
+	write(1,"\n",1);
+	return (0);
+} */

@@ -6,7 +6,7 @@
 /*   By: crtorres <crtorres@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/19 13:48:12 by crtorres          #+#    #+#             */
-/*   Updated: 2022/12/19 15:12:15 by crtorres         ###   ########.fr       */
+/*   Updated: 2023/01/24 18:47:53 by crtorres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,8 +47,8 @@ int main( void )
    printf( "1: %s\n", string );
    result = strpbrk( string, "0123456789" );
    printf( "2: %s\n", result++ );
-   result = strpbrk( result, "dddbddd" );
+   result = ft_strpbrk( result, "dddbddd" );
    printf( "3: %s\n", result++ );
    result = strpbrk( result, "0123456789" );
    printf( "4: %s\n", result );
-} */
+}  */
